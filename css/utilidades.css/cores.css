@@ -1,0 +1,40 @@
+:root {
+  --cor-c1: hsl(0, 0%, 100%);
+
+  --cor-violet: hsl(263, 55%, 52%);
+
+  --cor-d1: hsl(217, 19%, 35%);
+  --cor-d2: hsl(219, 29%, 14%);
+
+  --cor-n1: hsl(0, 0%, 81%);
+  --cor-n2: hsl(210, 46%, 95%);
+}
+
+.cor-c1 {
+  color: hsl(0, 0%, 100%);
+}
+
+.cor-violet {
+  color: hsl(263, 55%, 52%);
+}
+
+.cor-d1 {
+  color: hsl(217, 19%, 35%);
+}
+
+.cor-d2 {
+  color: hsl(219, 29%, 14%);
+}
+
+.cor-n1 {
+  color: hsl(0, 0%, 81%);
+}
+
+.cor-n2 {
+  color: hsl(210, 46%, 95%);
+}
+
+.cor-c2 {
+  color: hsl(0, 0%, 100%);
+  opacity: 70%;
+}

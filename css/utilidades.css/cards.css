@@ -1,0 +1,33 @@
+.card {
+  padding: 30px;
+  border-radius: 5px;
+}
+
+.bg-daniel {
+  background-color: var(--cor-violet);
+  grid-area: dan;
+}
+
+.bg-white {
+  background-color: var(--cor-c1);
+  grid-area: jea;
+}
+
+.bg-white-kira {
+  background-color: var(--cor-c1);
+  grid-area: kira;
+}
+
+.bg-white-kira p + p {
+  max-width: 23ch;
+}
+
+.bg-jonathan {
+  background-color: var(--cor-d1);
+  grid-area: jon;
+}
+
+.bg-patrick {
+  background-color: var(--cor-d2);
+  grid-area: patri;
+}

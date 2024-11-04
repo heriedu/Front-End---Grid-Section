@@ -1,0 +1,29 @@
+body {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: "Barlow Semi Condensed";
+  font-weight: 500;
+  background-color: var(--cor-n2);
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+li,
+blockquote {
+  padding: 0px;
+  margin: 0px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+ul {
+  list-style: none;
+}

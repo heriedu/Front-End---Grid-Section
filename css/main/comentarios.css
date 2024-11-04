@@ -1,0 +1,56 @@
+.comments-section {
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 120px;
+}
+
+.list-comentario {
+  display: grid;
+  grid-template:
+    "dan dan jon kira" auto
+    "jea patri patri kira " auto
+    / 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.list-comentario blockquote p {
+  font-size: 1.2rem;
+}
+
+.list-comentario blockquote p + p {
+  margin-top: 20px;
+  font-size: 0.812rem;
+}
+
+.list-comentario header h3 {
+  font-size: 14px;
+}
+
+.list-comentario span {
+  color: var(--cor-n1);
+  opacity: 50%;
+}
+
+.list-comentario li header {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1200px) {
+  .comments-section {
+    padding: 60px;
+  }
+
+  .list-comentario {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .list-comentario .bg-white-kira blockquote p + p {
+    max-width: 100%;
+    color: red;
+  }
+}
